@@ -18,7 +18,7 @@ export class StudentsComponent implements OnInit {
   ngOnInit(): void {
    // alert("Bader")
 
-   fetch('http://localhost:3000/Data')
+   fetch('https://api-test-01-read-from-excel.onrender.com/Data')
    .then(response => response.json())
    .then(json => {
      json.forEach((z:any) =>{
